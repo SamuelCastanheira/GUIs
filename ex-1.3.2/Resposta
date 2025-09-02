@@ -1,0 +1,2 @@
+1. O bug consiste em gerar um frame "a mais" onde não há informação alguma sendomostrada.
+2.Fica evidente ao na mesma iteração do loop ser feito dois frames, logo um e mostrado enquanto outro é processado. Evidenciando o uso de "double buffering"
