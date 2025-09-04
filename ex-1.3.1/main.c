@@ -30,12 +30,12 @@ SDL_WINDOWPOS_UNDEFINED,
     
     if (direita)
     {
-       r.x += 10; r2.x += 10;
+       r.x += 5; r2.x += 5;
     }
     
     if (esquerda)
     {
-      r.x -=10; r2.x -= 10;
+      r.x -=5; r2.x -= 5;
     }
 
     SDL_SetRenderDrawColor(ren, 0xFF,0xFF,0xFF,0x00);
