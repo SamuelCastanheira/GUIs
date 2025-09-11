@@ -18,7 +18,7 @@ int main (int argc, char* args[])
 
  SDL_Rect mvMouse = { 60,20, 10,10 };
 
-  Uint32 espera = 1000;
+  Uint32 espera = 500;
   int mouseX, mouseY;
 
  while (1) {
@@ -66,6 +66,7 @@ int main (int argc, char* args[])
     else 
     {
     	mvTempo.x +=10; mvTempo.y +=10;
+	espera = 500;
     }
 
     SDL_SetRenderDrawColor(ren, 0xFF,0x00,0x00,0xFF);
