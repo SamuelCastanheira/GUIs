@@ -1,0 +1,2 @@
+Nesse jogo você é um ser com o poder dos "multiplos" toques envelhecedores.
+A cada clique múltiplo na maça, a maça envelhece mais. Após 500ms a maça volta ao estado inicial (seu poder dura pouco tempo).  
