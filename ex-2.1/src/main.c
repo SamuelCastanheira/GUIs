@@ -98,7 +98,7 @@ Mix_PlayMusic(music, -1);
 
 		if (evt.type == SDL_USEREVENT)
 		{
-			printf("%d\n",evt.user.code);
+			
 			if (evt.user.code == 2) img = IMG_LoadTexture(ren, "../img/2.png"); 
 			if (evt.user.code == 3) img = IMG_LoadTexture(ren, "../img/3.png");
 			if (evt.user.code == 4) img = IMG_LoadTexture(ren, "../img/4.png");
